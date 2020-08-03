@@ -73,6 +73,7 @@ nav {
     height: 3px;
     background-color: whitesmoke;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 
@@ -83,10 +84,11 @@ nav {
     .nav-links {
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: space-around;
-        /* position: fixed; */
+        transform: none;
+        z-index: 3;
         height: auto;
-        top: auto;
     }
 
     .nav-links li {
@@ -108,4 +110,16 @@ nav {
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+} 
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
