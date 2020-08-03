@@ -89,6 +89,7 @@ nav {
         transform: none;
         z-index: 3;
         height: auto;
+        position: static;
     }
 
     .nav-links li {
