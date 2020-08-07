@@ -77,6 +77,65 @@ nav {
 }
 
 
+/* remember to take this off-- striclty for layout purposes */
+div {
+    margin-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.basic-info {
+    border: 1px solid black;
+    z-index: -2;
+    max-width: 80%;
+}
+
+.name {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.charlie {
+    border-radius: 50%;
+}
+
+.bio {
+    border: 1px solid black;
+}
+
+.bio-title {
+    text-align: center;
+}
+
+.form {
+    display: none;
+}
+
+.showForm {
+    display: flex;
+}
+
+/* .posts {
+    border-bottom: 1px solid black;
+} */
+
+.posts-title {
+    text-align: center;
+}
+
+.post {
+    border: 1px solid black;
+}
 
 /*************** MEDIA QUESRIES FOR DESKTOP *****************/
 
