@@ -20,7 +20,7 @@ nav {
     min-height: 8vh;
     background-color:var(--primary-color);
     padding: 0 30px;
-    z-index: 1;
+    
 }
 
 .logo {
@@ -44,7 +44,7 @@ nav {
     background-color: var(--primary-color);
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    z-index: -1;
+    z-index: 3;
 }
 
 .nav-active {
@@ -84,6 +84,7 @@ nav {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    z-index: -2;
 }
 
 .basic-info {
