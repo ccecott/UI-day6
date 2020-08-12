@@ -77,10 +77,7 @@ nav {
 }
 
 
-/* remember to take this off-- striclty for layout purposes */
-div {
-    margin-top: 20px;
-}
+
 
 .main-content {
     display: flex;
@@ -113,6 +110,10 @@ div {
     border: 1px solid black;
 }
 
+.button {
+    z-index: 10;
+}
+
 .bio-title {
     text-align: center;
 }
@@ -123,6 +124,7 @@ div {
 
 .showForm {
     display: flex;
+    flex-direction: column;
 }
 
 /* .posts {

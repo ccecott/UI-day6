@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <nav>
         <div class="logo">
             <h1>????</h1>
@@ -31,41 +32,48 @@
             <div class="line3"></div>
         </div>
     </nav>
+
     <div class="main-content">
-        <div class="basic-info">
-            <div class="name">
-                <h2>Charlie Cecott</h2>
-            </div>
-            <div class="image">
-                <img src="./assests/IMG_20200625_085200_027.jpg" alt="charlie" width="200px" height="200px"
-                    class="charlie">
-            </div>
-            <div class="bio">
-                <button id="bioBtn">Update Bio</button>
-                <h2 class="bio-title">Bio</h2>
+        <!-- <div class="basic-info"> -->
+        <div class="name">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe sapiente quibusdam iusto, quia
-                    iste vitae consequatur deserunt sed recusandae eum quis praesentium nesciunt omnis, totam, commodi
-                    repellat reiciendis quos!
-                    Nostrum animi error neque amet similique nisi cum omnis. Commodi fugit, ea nulla, optio pariatur
-                    fugiat repellendus nam omnis deleniti, consectetur excepturi dolore cum! Ullam voluptatem id sequi
-                    dolorem? Cumque?
-                    Ea magnam veniam delectus autem sequi illo quasi voluptates necessitatibus odit deleniti tempora
-                    dolores quidem unde vitae, nesciunt accusantium officiis animi. Cupiditate molestias adipisci
-                    perferendis cum recusandae nihil cumque mollitia?</p>
-
-                <div class="form-container">
-
-                    <form class="form">
-                        <label for="update-bio">Update Bio:</label>
-                        <textarea name="update-bio" id="update-bio" cols="30" rows="10"></textarea>
-                        <button>Submit</button>
-                    </form>
-                </div>
-
-            </div>
+            <h2>Charlie Cecott</h2>
+        </div>
+        <div class="image">
+            <img src="./assests/IMG_20200625_085200_027.jpg" alt="charlie" width="200px" height="200px" class="charlie">
 
         </div>
+
+        <!-- <div class="bio"> -->
+
+        <h2 class="bio-title">Bio</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam saepe sapiente quibusdam iusto, quia
+            iste vitae consequatur deserunt sed recusandae eum quis praesentium nesciunt omnis, totam, commodi
+            repellat reiciendis quos!
+            Nostrum animi error neque amet similique nisi cum omnis. Commodi fugit, ea nulla, optio pariatur
+            fugiat repellendus nam omnis deleniti, consectetur excepturi dolore cum! Ullam voluptatem id sequi
+            dolorem? Cumque?
+            Ea magnam veniam delectus autem sequi illo quasi voluptates necessitatibus odit deleniti tempora
+            dolores quidem unde vitae, nesciunt accusantium officiis animi. Cupiditate molestias adipisci
+            perferendis cum recusandae nihil cumque mollitia?</p>
+
+        <button class="bioBtn" onclick="updateBio()">Update Bio</button>
+
+
+        <div class="form-container">
+
+            <form class="form">
+                <label for="update-bio">Update Bio:</label>
+                <textarea name="update-bio" id="update-bio" cols="30" rows="10"></textarea>
+                <input type="submit">
+                <button class="cnlBtn">Cancel</button>
+            </form>
+        </div>
+
+        <!-- </div> -->
+
+        <!-- </div> -->
         <div class="posts">
             <h2 class="posts-title">Posts</h2>
             <hr>

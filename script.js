@@ -25,8 +25,20 @@ const navSlide = () => {
 }
 navSlide();
 
-// update bio
-document.getElementById('bioBtn').addEventListener('click', function (e) {
-    e.stopPropagation();
-    console.log('heard')
-})
+const bioForm = document.querySelector('.form');
+
+const updateBio = () => {
+    const bioBtn = document.querySelector('.bioBtn');
+
+    bioBtn.addEventListener('click', () => {
+        bioForm.classList.add('showForm');
+    })
+}
+
+const bioCancel = () => {
+    const cancelBtn = documetn.querySelector('.cnlBtn');
+    cancelBtn.addEventListener('click', () => {
+        bioForm.classList.remove('showForm');
+    })
+}
+
