@@ -111,8 +111,8 @@ nav {
     border: 1px solid black;
 }
 
-.button {
-    z-index: 10;
+.bioBtn {
+    padding: 3px;
 }
 
 .bio-title {

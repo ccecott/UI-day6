@@ -26,17 +26,20 @@ const navSlide = () => {
 navSlide();
 
 const bioForm = document.querySelector('.form');
+// event delegation
+const bioBtn = document.querySelector('.btn-content');
 
 const updateBio = () => {
-    const bioBtn = document.querySelector('.bioBtn');
+
 
     bioBtn.addEventListener('click', () => {
+
         bioForm.classList.add('showForm');
     })
 }
 
 const bioCancel = () => {
-    const cancelBtn = documetn.querySelector('.cnlBtn');
+    const cancelBtn = document.querySelector('.cnlBtn');
     cancelBtn.addEventListener('click', () => {
         bioForm.classList.remove('showForm');
     })
